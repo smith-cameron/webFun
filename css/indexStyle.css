@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#wrapper{
+    width: 1000px;
+    height:fit-content;
+    padding-top: 20px;
+    border: dashed thin red;
+    background-color:steelblue;
+    margin: 40px auto;
+}
+#header{
+    text-align: center;
+    font: xx-large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+.container {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+    
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: blanchedalmond;
+
+}
