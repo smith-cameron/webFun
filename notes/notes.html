@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Fun Notes</title>
+    <link rel="stylesheet" href="notesStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/notesScript.js"></script>
+    <script>
+        function example(element) {
+        console.log("element clicked", element);
+    }
+    </script>
+</head>
+<body>
+    <div id=wrapper>
+        <button class=button onclick="alert('Houston, we have liftoff.')">Click Me!</button>
+        <button class=button onclick="example(this)">No, Click Me!</button>
+    </div>
+</body>
+</html>
